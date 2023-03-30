@@ -82,3 +82,10 @@ const body = document.body;
 darkModeToggle.addEventListener('click', () => {
   body.classList.toggle('dark-mode');
 });
+addButton.addEventListener('dblclick', ()=>{
+  if (confirm('Switching to Tablet Mode!')) {
+  document.getElementById('header').style.top='10px';}
+else{
+alert('Operation cancelled');
+}
+});
