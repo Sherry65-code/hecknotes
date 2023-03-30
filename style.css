@@ -347,3 +347,8 @@ h1{
   font-weight: 600;
   font-variant: small-caps;
 }
+.header {
+  position: sticky;
+  top:0;
+  left: 0;
+}
