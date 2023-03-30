@@ -351,4 +351,7 @@ h1{
   position: sticky;
   top:0;
   left: 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  z-index: 100;
 }
